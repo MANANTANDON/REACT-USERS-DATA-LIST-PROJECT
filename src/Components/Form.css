@@ -1,0 +1,51 @@
+.formContainer{
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flexbox;
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    padding: 20px;
+}
+
+.textContainer,.ageContainer{
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 400;
+}
+
+input[type = 'text']{
+    font-size: 12px;
+    font-family: 'Open Sans';
+}
+
+button[type = 'submit']{
+   background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);    
+   color: white;
+   border: none;
+   width: 30%;
+   box-sizing: border-box;
+   border-radius: 10px;
+   margin-top: 5px;
+   padding: 7px;
+   outline: none;
+}
+
+input[type = 'text'],[type = 'number']{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.81px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+    outline: none;
+}
+

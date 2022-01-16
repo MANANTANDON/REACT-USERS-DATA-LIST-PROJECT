@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.userBody{
+  box-sizing: border-box;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  width: 30%;
+  display: grid;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 10px
+}
+
+
